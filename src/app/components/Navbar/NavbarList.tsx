@@ -1,7 +1,5 @@
-import { cn } from "@/helper/cn";
 import { NavbarListProps } from "./types";
-
-
+import { cn } from "@/helper/cn";
 
 export const NavbarList = ({ children, className, ...props }: NavbarListProps) => {
   return (
